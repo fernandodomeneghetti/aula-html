@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 01</title>
+</head>
+<body>
+    <h1>Tags Estruturais</h1>
+    <header id="meuHeader">
+        <h1>Meu Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Sobre</h2>
+        <p>Esta é a seção sobre o meu site.</p>
+    </section>
+
+    <article>
+        <h2>Post</h2>
+        <p>Cara, curti seu site! ótima navegação!! 5 estrelas</p>
+    </article>
+
+    <aside>
+        <h3>Anúncios</h3>
+        <p>Confira a última matéria sobre html feita por mim!</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos direitos reservados</p>
+    </footer>
+
+    <hr>
+    <h1>Tags de Componentes</h1>
+
+    <h1>Cabeçalho</h1>
+    <h2>Cabeçalho</h2>
+    <h3>Cabeçalho</h3>
+    <h4>Cabeçalho</h4>
+    <h5>Cabeçalho</h5>
+    <h6>Cabeçalho</h6>
+    
+    <p>Paragráfo ParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfo<br>ParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfoParagráfo <br />ParagráfoParagráfoParagráfoParagráfoParagráfoParagráfo</p>
+
+    <a href="#meuHeader">Clique aqui para ir para Meu Header</a>
+    <a href="https://google.com" target="_blank">Cliquei aqui para tirar qualquer duvida</a>
+
+    <img src="./img/image.png" alt="Imagem de Codigo">
+
+    <video src="./video/videoplayback.mp4" controls></video>
+
+    <audio src="#" controls></audio>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 3</li>
+        <li>Item 2</li>
+    </ul>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 3</li>
+        <li>Item 2</li>
+    </ol>
+
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 3</li>
+        <li>Item 2</li>
+    </ol>
+
+    <ol type="A">
+        <li>Item 1</li>
+        <li>Item 3</li>
+        <li>Item 2</li>
+    </ol>
+
+    <table style="border: 1px solid #000;">
+        <tr>
+            <th>Nome</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>ALuno de Palmeiras</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Aluno de COrinthians</td>
+            <td>Passou!</td>
+        </tr>
+    </table>
+
+    <div>
+        <p>Este <b>texto</b> esta na cor 
+            <span style="color:red"><strong>vermelho</strong></span>
+        </p>
+    </div>
+
+    <iframe src="https://www.anchieta.br/"></iframe>
+
+    <br><br>
+    <label for="inputDate">Selecione uma data</label>
+    <input id="inputDate" type="date">
+    <br><br>
+    <label for="inputFile">Selecione um arquivo</label>
+    <input id="inputFile" type="file">
+    <br><br>
+    <button>Clique aqui</button>
+    <br><br>
+    <select>
+        <option value="opcao1">Opção 1</option>
+        <option value="opcao2">Opção 2</option>
+        <option value="opcao3">Opção 3</option>
+    </select>
+    <br><br>
+
+    <input list="cidades">
+    <datalist id="cidades">
+        <option value="Itupeva">
+        <option value="Jundiai">
+        <option value="Campinas">
+    </datalist>
+    <br><br>
+
+    <textarea rows="10" cols="20">Digite algo</textarea>    
+
+    <hr>
+
+    <h1>Tags de Formulários</h1>
+
+    <form method="post" action="/sua-api">
+        <label for="inputName">Nome:</label>
+        <input id="inputName" type="text"><br>
+        <label for="inputEmail">Email:</label>
+        <input id="inputEmail" type="text"><br>
+
+        <input type="submit" value="Enviar"><br>
+    </form>
+</body>
+</html>
